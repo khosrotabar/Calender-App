@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Table from "./Table";
 import { Months } from "./DateData";
+import "bootstrap/dist/js/bootstrap.js";
+import "bootstrap/dist/css/bootstrap.css";
 import "../CSS/Calender-App.css";
 
 function TableCrousel(props) {
