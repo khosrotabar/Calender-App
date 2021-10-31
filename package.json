@@ -1,7 +1,7 @@
 {
-  "name": "calender-app",
+  "name": "calendar-app",
   "version": "1.0.0",
-  "description": "this is a simple calender app maked with react.js but it has some problems 😒 such as:\n\n1. The year does not change when the calendar slides ends\n\n2.Only one appointment can be added\n\n3. after add an appointment, It is not stored in and disappears after the page is refreshed\n",
+  "description": "this is an calendar was made with react.js",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
