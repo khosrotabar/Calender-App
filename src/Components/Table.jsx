@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Weeks } from "./DateData";
+import "bootstrap/dist/js/bootstrap.js";
+import "bootstrap/dist/css/bootstrap.css";
 import {
   JanuaryDays,
   FebruaryDays,
