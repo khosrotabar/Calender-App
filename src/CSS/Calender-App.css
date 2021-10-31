@@ -1,0 +1,161 @@
+.table-container {
+  width: 340px;
+}
+
+.carousel-control-prev {
+  margin-left: 16px;
+}
+
+.carousel-control-next {
+  margin-right: 16px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 15px;
+  height: 25px;
+}
+
+.flipIconPrev {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+img {
+  width: 20px;
+}
+
+.May tr:nth-child(1) td:nth-child(-n + 6),
+.January tr:nth-child(1) td:nth-child(-n + 5),
+.October tr:nth-child(1) td:nth-child(-n + 5),
+.September tr:nth-child(1) td:nth-child(-n + 3),
+.December tr:nth-child(1) td:nth-child(-n + 3),
+.April tr:nth-child(1) td:nth-child(-n + 4),
+.July tr:nth-child(1) td:nth-child(-n + 4),
+.June tr:nth-child(1) td:nth-child(-n + 2),
+.February tr:nth-child(1) td:nth-child(1),
+.November tr:nth-child(1) td:nth-child(1),
+.March tr:nth-child(1) td:nth-child(1),
+.January tr:nth-child(6) td:nth-last-child(-n + 6),
+.February tr:nth-child(5) td:nth-last-child(-n + 6),
+.February tr:nth-child(6) td:nth-last-child(-n + 7),
+.March tr:nth-child(5) td:nth-last-child(-n + 3),
+.March tr:nth-child(6) td:nth-last-child(-n + 7),
+.April tr:nth-child(5) td:nth-last-child(-n + 1),
+.April tr:nth-child(6) td:nth-last-child(-n + 7),
+.May tr:nth-child(6) td:nth-last-child(-n + 5),
+.June tr:nth-child(5) td:nth-last-child(-n + 3),
+.June tr:nth-child(6) td:nth-last-child(-n + 7),
+.July tr:nth-child(6) td:nth-last-child(-n + 7),
+.August tr:nth-child(5) td:nth-last-child(-n + 4),
+.August tr:nth-child(6) td:nth-last-child(-n + 7),
+.September tr:nth-child(5) td:nth-last-child(-n + 2),
+.September tr:nth-child(6) td:nth-last-child(-n + 7),
+.October tr:nth-child(6) td:nth-last-child(-n + 6),
+.November tr:nth-child(5) td:nth-last-child(-n + 4),
+.November tr:nth-child(6) td:nth-last-child(-n + 7),
+.December tr:nth-child(5) td:nth-last-child(-n + 1),
+.December tr:nth-child(6) td:nth-last-child(-n + 7) {
+  color: #cdcdcd;
+  background-image: none;
+}
+
+.May tr:nth-child(1) td:nth-child(-n + 6):focus,
+.January tr:nth-child(1) td:nth-child(-n + 5):focus,
+.October tr:nth-child(1) td:nth-child(-n + 5):focus,
+.September tr:nth-child(1) td:nth-child(-n + 3):focus,
+.December tr:nth-child(1) td:nth-child(-n + 3):focus,
+.April tr:nth-child(1) td:nth-child(-n + 4):focus,
+.July tr:nth-child(1) td:nth-child(-n + 4):focus,
+.June tr:nth-child(1) td:nth-child(-n + 2):focus,
+.February tr:nth-child(1) td:nth-child(1):focus,
+.November tr:nth-child(1) td:nth-child(1):focus,
+.March tr:nth-child(1) td:nth-child(1):focus,
+.January tr:nth-child(6) td:nth-last-child(-n + 6):focus,
+.February tr:nth-child(5) td:nth-last-child(-n + 6):focus,
+.February tr:nth-child(6) td:nth-last-child(-n + 7):focus,
+.March tr:nth-child(5) td:nth-last-child(-n + 3):focus,
+.March tr:nth-child(6) td:nth-last-child(-n + 7):focus,
+.April tr:nth-child(5) td:nth-last-child(-n + 1):focus,
+.April tr:nth-child(6) td:nth-last-child(-n + 7):focus,
+.May tr:nth-child(6) td:nth-last-child(-n + 5):focus,
+.June tr:nth-child(5) td:nth-last-child(-n + 3):focus,
+.June tr:nth-child(6) td:nth-last-child(-n + 7):focus,
+.July tr:nth-child(6) td:nth-last-child(-n + 7):focus,
+.August tr:nth-child(5) td:nth-last-child(-n + 4):focus,
+.August tr:nth-child(6) td:nth-last-child(-n + 7):focus,
+.September tr:nth-child(5) td:nth-last-child(-n + 2):focus,
+.September tr:nth-child(6) td:nth-last-child(-n + 7):focus,
+.October tr:nth-child(6) td:nth-last-child(-n + 6):focus,
+.November tr:nth-child(5) td:nth-last-child(-n + 4):focus,
+.November tr:nth-child(6) td:nth-last-child(-n + 7):focus,
+.December tr:nth-child(5) td:nth-last-child(-n + 1):focus,
+.December tr:nth-child(6) td:nth-last-child(-n + 7):focus {
+  color: black;
+}
+
+.calender td {
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+table {
+  table-layout: fixed;
+  word-wrap: break-word;
+  border-spacing: 5px;
+  border-collapse: separate;
+}
+
+.calender td:hover {
+  box-shadow: 0 0 1.5px 0 rgba(252, 143, 1, 1);
+}
+
+.calender td:focus {
+  box-shadow: 0 0 0px 2px rgba(252, 143, 1, 1);
+  outline: none;
+  color: black;
+}
+
+.calender-titles {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.appointment-input {
+  border-radius: 5px;
+  padding: 5px 4px;
+  border: 1px solid rgba(131, 131, 131, 0.6);
+  box-shadow: inset 0 0 4px 0 rgba(105, 105, 105, 0.4);
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.appointment-input::placeholder {
+  color: #b6b6b6;
+}
+
+.appointment-input:focus {
+  border: 1px solid rgba(27, 27, 27, 0.6);
+}
+
+.btn-close {
+  top: 5px;
+  right: 8px;
+}
+
+.required {
+  top: 7px;
+  right: 120px;
+  color: red;
+}
+
+.clickCustumCss {
+  background-image: linear-gradient(rgba(252, 143, 1, 1), rgba(252, 143, 1, 1));
+  color: white;
+}
+
+.clickCustumCss:focus {
+  color: white;
+}
