@@ -3,7 +3,7 @@ import Table from "./Table";
 import { Months } from "./DateData";
 import "bootstrap/dist/js/bootstrap.js";
 import "bootstrap/dist/css/bootstrap.css";
-import "../CSS/Calender-App.css";
+import "../CSS/Calendar-App.css";
 
 function TableCrousel(props) {
   const [monthsArray, setMonthsArray] = useState(Months);

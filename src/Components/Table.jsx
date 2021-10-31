@@ -16,7 +16,7 @@ import {
   NovemberDays,
   DecemberDays
 } from "./DateData";
-import "../CSS/Calender-App.css";
+import "../CSS/Calendar-App.css";
 
 function Table(props) {
   const [dayHistory, setDayHistory] = useState(
